@@ -87,7 +87,6 @@ h4 {
 p {
 	font-size: 22px;
 	line-height: 1.5;
-	margin-bottom: 15px;
 }
 
 ul,
@@ -190,7 +189,7 @@ nav a:link {
     display: block; */
 
 	margin-right: 30px;
-	margin-top: 10px;
+
 	display: inline-block;
 }
 
@@ -255,7 +254,7 @@ h2::before {
     font-size: 18px;
   } */
 
-.author-img {
+/*.author-img {
 	float: left;
 }
 .author {
@@ -287,4 +286,50 @@ aside {
 }
 footer {
 	clear: both;
+}*/
+
+.main-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.author-box {
+	display: flex;
+	align-items: center;
+	justify-self: center;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+.related-link:link {
+	font-size: 17px;
+	font-weight: bold;
+	font-style: normal;
+	margin-bottom: 5px;
+	display: block;
+}
+.related-container {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	align-items: center;
+}
+.related-author {
+	font-size: 14px;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.article-container {
+	display: flex;
+	margin-bottom: 80px;
+	gap: 40px;
+	align-items: flex-start;
+}
+
+aside {
+	flex: 0 0 30%;
+}
+article {
+	flex: 0 0 60%;
+	margin-bottom: 0;
 }
